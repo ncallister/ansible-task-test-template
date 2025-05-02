@@ -1,0 +1,5 @@
+- hosts: localhost
+  tasks:
+    - name: Your task here
+      ansible.builtin.debug: 
+        msg: Put the task you wish to test here
